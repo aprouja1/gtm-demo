@@ -1,8 +1,8 @@
 document.querySelector('button').addEventListener("click",()=>{
     dataLayer.push({ecommerce: null})
     dataLayer.push({
+        event:"addToCart",
         ecommerce :{
-            event:"addToCart",
             currencyCode:"USD",
             add:{
                 products : [{
